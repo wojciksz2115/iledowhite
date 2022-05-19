@@ -1,0 +1,144 @@
+body
+    {
+        background-color: #226666;
+        margin:1%;
+    }
+
+@media all and (max-width:425px){
+    
+    .header{
+        background-color:#003333;
+        color:white;
+        font-size: 11vw;
+        text-align: center;
+        font-family: Arial;
+    }
+    .menu{
+        padding-top:1vw;
+        padding-bottom:1vw;
+        margin-top: 1.5vw;
+        background-color:#0D4D4D;
+        width:auto;
+        height: auto;
+    }
+    a{
+        font-family: Arial;
+        background-color: #407f7f;
+        color:white;
+        text-decoration: none;
+        font-size: 9vw;
+        line-height: 16vw;
+        padding-top: 2.5%;
+        padding-bottom: 2.5%;
+        padding-left: 15%;
+        padding-right: 15%;
+        border-radius: 4vw;
+        width: 10px;
+    }
+    li{
+        width: auto;
+        padding: 0;
+        
+    }
+    a:hover {
+        background-color:#669999;
+    }
+    ul{
+        
+        text-align: center;
+        margin-top:3.5vw;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    } 
+    .main
+    {
+        margin-top: 1.5vw;
+        background-color:#407F7F;
+        width: 98vw;
+        height: 73.5vh;
+    }   
+    .footer{
+        font-size: 4vw;
+        background-color:#003333;
+        height: 25px;
+        width: 98vw;
+        color:white;
+        display: flex;
+        align-items: center;
+        justify-content: right;
+    }
+}
+
+
+
+@media all and (min-width:426px){
+    .header{
+        background-color:#003333;
+        color:white;
+        font-size: 4vw;
+        text-align: center;
+        font-family: Arial;
+    }
+    .menu{
+        margin-top: 1vw;
+        background-color:#0D4D4D;
+        width:14vw;
+        height: 83vh;
+        float:left
+    }
+    a{
+        font-family: Arial;
+        background-color: #407f7f;
+        color:white;
+        text-decoration: none;
+        font-size: 2vw;
+        line-height: 4vw;
+        padding-top: 2.5%;
+        padding-bottom: 2.5%;
+        padding-left: 15%;
+        padding-right: 15%;
+        border-radius: 0.5vw;
+        width: 10px;
+        transition: 300ms;
+    }
+    li{
+        width: auto;
+        padding: 0;
+    }
+    a:hover {
+        background-color:#669999;
+    }
+    ul{
+        text-align: center;
+        margin-top:3.5vw;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    } 
+    .main
+    {
+        margin-top: 1vw;
+        background-color:#407F7F;
+        width: 83vw;
+        height: 83vh;
+        float: right;
+    }   
+    .footer{
+        position: absolute;
+        bottom:0.5vh;
+        font-size: 1.3vw;
+        background-color:#003333;
+        height: 3vh;
+        width: 98vw;
+        color:white;
+        display: flex;
+        align-items: center;
+        justify-content: right;
+    }
+
+}
+
+
+
+

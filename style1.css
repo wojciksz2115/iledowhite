@@ -1,0 +1,154 @@
+body{
+    
+    line-height: 80px;
+    overflow-x: hidden;
+}
+
+@media all and (max-width:425px){
+body{
+    margin-top: 10vw;
+}
+    .title{
+    font-size: 14vw;
+    font-family: Arial;
+    color:white;
+    line-height: 16vw;
+    text-align: center;
+    margin-bottom: 3vw;
+}
+span{
+    font-size: 17vw;
+    color:white;
+    font-family: Arial;
+}
+.licznik{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#0D4D4D;
+    border-radius: 5px;
+    width: 85vw;
+    height: 25vw;
+}
+.cont{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.foto{
+    width: 55vw; 
+    height:55vw; 
+    background-color: #669999; 
+    border-radius: 4vw; 
+    color:white;
+    transform: scale(1,1);
+    padding: 3vw;
+    margin-bottom: 7vw;
+}
+img{
+    transition: 300ms;
+    width: 55vw; 
+    height:55vw; 
+    border-radius: 4vw; 
+}
+.cont2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+iframe{
+    visibility: hidden;
+}
+}
+
+
+
+@media all and (min-width:426px){
+body{
+    margin-top: 4vw;
+}
+.title{
+        font-size: 6vw;
+        font-family: Arial;
+        color:white;
+        line-height: 6vw;
+        text-align: center;
+        margin-bottom: 3vw;
+    }
+    span{
+        font-size: 7vw;
+        color:white;
+        font-family: Arial;
+    }
+    .licznik{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color:#0D4D4D;
+        border-radius: 5px;
+        width: 35vw;
+        height: 7vw;
+    }
+    .cont{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+.foto{
+    width: 17vw; 
+    height: 17vw; 
+    
+    padding: 1.5%;
+    background-color: #669999; 
+    border-radius: 10px; 
+    margin:auto;
+    color:white;
+    text-align: center;
+    transform: scale(1,1);
+    margin-bottom: 7vw;
+}
+img{
+    transition: 300ms;
+    width:100%;
+    
+}
+.foto:hover img{
+    transform: scale(1.16);
+    border-radius: 10px;
+}
+iframe{
+    border-radius: 15px;
+    height: 470px;
+    width: 470px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3vw;
+}
+.cont2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin:0;
+}
+li{
+    display: inline;
+}
+}
